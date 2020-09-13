@@ -31,6 +31,6 @@ module.exports = function getSeason(date) {
         return 'autumn';
     }
   } catch (err) {
-     return err
+    return err
   }
 };
